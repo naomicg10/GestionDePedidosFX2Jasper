@@ -1,0 +1,32 @@
+.ventana{
+    -fx-background-image: url("imagenes/fondo.png");
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+#label{
+    -fx-effect: dropshadow(one-pass-box, mediumpurple, 8, 0.0, 2, 0);
+}
+#pane{
+    -fx-effect: dropshadow(gaussian, rgba(128, 128, 128, 0.7), 10, 0.5, 0.0, 0.0);
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+}
+#box{
+    -fx-background-color: transparent;
+}
+#button{
+    -fx-background-radius: 10px;
+    -fx-background-color: #E5CFFE;
+}
+.ventana2{
+    -fx-background-color: #E5CFFE;
+}
+#menu > .label{
+    -fx-graphic: url("imagenes/menu.png");
+}
+#menu .accelerator-text{
+    -fx-graphic: none;
+}
+#menuBar{
+    -fx-background-color: transparent;
+}
